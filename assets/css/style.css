@@ -918,6 +918,7 @@ hr {
 .st-hero-wrap {
   position: relative;
   /* height: 850px; */
+  height: calc(100vh - 80px);
   background-color: #070d1b;
 }
 
