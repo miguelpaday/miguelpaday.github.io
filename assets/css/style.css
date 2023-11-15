@@ -924,6 +924,8 @@ hr {
 .st-hero-wrap img {
   height: 100%;
   width: 100%;
+  min-width: 533px;
+  max-width: 750px;
   -o-object-fit: cover;
      object-fit: cover;
 position: absolute;
@@ -986,7 +988,8 @@ z-index: 2;
   border-right: 0;
   border-radius: 50px 0 0 50px;
   height: 80px;
-  width: 65vw;
+  width: 75vw;
+  max-width: 1090px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
