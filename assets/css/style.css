@@ -927,9 +927,11 @@ hr {
   width: 100%;
   min-width: 533px;
   max-width: 595px;
+  max-height: 950px;
   -o-object-fit: cover;
      object-fit: cover;
 position: absolute;
+bottom: 0;
 z-index: 2;
 }
 
@@ -990,7 +992,7 @@ z-index: 2;
   border-radius: 50px 0 0 50px;
   height: 80px;
   width: 75vw;
-  max-width: 1090px;
+  max-width: calc(50vw + 220px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1528,6 +1530,8 @@ canvas {
 
 .st-text-block.st-style1 .st-text-block-btn {
   margin-top: 43px;
+  display: flex;
+  justify-content: center;
 }
 
 .st-text-block-details li {
@@ -1565,6 +1569,7 @@ canvas {
   transition: all 0.4s ease;
   border: 1px solid #232935;
   background-color: #101624;
+  overflow: hidden;
 }
 
 .st-iconbox.st-style1:hover .st-iconbox-icon {
